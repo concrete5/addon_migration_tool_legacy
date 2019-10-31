@@ -31,6 +31,8 @@ class MigrationToolPackage extends Package
             'UserExportType' => array('library', 'Export/Type/UserExportType', 'migration_tool'),
             'PageExportType' => array('library', 'Export/Type/PageExportType', 'migration_tool'),
             'StackExportType' => array('library', 'Export/Type/StackExportType', 'migration_tool'),
+            'FileExportType' => array('library', 'Export/Type/FileExportType', 'migration_tool'),
+            'FileSetExportType' => array('library', 'Export/Type/FileSetExportType', 'migration_tool'),
             'ExportTypeInterface' => array('library', 'Export/Type/ExportTypeInterface', 'migration_tool'),
             'ExportSearchResultFormatterInterface' => array('library', 'Export/SearchResult/ExportSearchResultFormatterInterface', 'migration_tool'),
             'StandardExportSearchResultFormatter' => array('library', 'Export/SearchResult/StandardExportSearchResultFormatter', 'migration_tool'),

@@ -8,6 +8,8 @@ class ExportManager
             'page',
             'stack',
             'user',
+            'file',
+            'file_set',
         );
     }
 
@@ -31,3 +33,4 @@ class ExportManager
         return $drivers;
     }
 }
+    
